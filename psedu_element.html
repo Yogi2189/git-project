@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       h1::before{
+         background-color: hotpink;
+           display: inline-block;
+       
+}
+        h1{
+            text-align: center;
+        
+        }
+        h2::before{
+           
+        }
+        h2{
+            text-align: center;
+        }
+        h3::after{
+            content: url(smiley.gif);
+            
+        }
+        p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+p::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+
+</style>
+
+</head>
+<body>
+    <h1> heading 1 chapter 1</h1>
+    <h2>chapter 2heading 2</h2>
+    <h3> heading 3</h3>
+    <h4>heading 4</h4>
+    <p>You can combine the ::first-letter and ::first-line pseudo-elements to add a special<br>
+         effect to the first letter and the first line of a text!</p>
+
+    
+</body>
+</html>
